@@ -1,0 +1,26 @@
+{
+  "name": "map-tile-lighting-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "load-image": "budo load-image-demo.js --live -- -t brfs",
+    "elevation": "budo elevation-demo.js --live -- -t brfs",
+    "normals": "budo normals-demo.js --live -- -t brfs",
+    "direct": "budo direct-lighting-demo.js --live -- -t brfs",
+    "soft-shadows": "budo soft-shadows-demo.js --live -- -t brfs",
+    "ambient-occlusion": "budo ambient-occlusion-demo.js --live -- -t brfs",
+    "combined-lighting": "budo combined-lighting-demo.js --live -- -t brfs",
+    "satellite": "budo satellite-terrain-demo.js --live -- -t brfs",
+    "tiled": "budo tiled-demo.js --live -- -t brfs"
+  },
+  "keywords": [],
+  "author": "Rye Terrell",
+  "license": "Unlicense",
+  "devDependencies": {
+    "brfs": "^2.0.2",
+    "budo": "^11.6.1",
+    "gl-matrix": "^3.0.0",
+    "regl": "^1.3.11"
+  }
+}
