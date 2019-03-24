@@ -23,9 +23,6 @@ async function main() {
     `https://api.mapbox.com/v4/mapbox.terrain-rgb/zoom/tLong/tLat.pngraw?access_token=${MAPBOX_KEY}`
   );
 
-  document.body.appendChild(image);
-  return;
-
   const canvas = document.createElement("canvas");
   canvas.width = image.width;
   canvas.height = image.height;
